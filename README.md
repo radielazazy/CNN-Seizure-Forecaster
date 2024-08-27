@@ -1,6 +1,8 @@
 ****Introduction to Project****
 
-Goal: using raw EEG data, create a model that produces an alert 30 minutes before a seizure occurs.
+Goal: using raw EEG data, create a model that produces an alert thirty minutes before a seizure occurs. The pipeline involves first, filtering the data, then transforming the data and feeding it into a VGG-16 convolutional neural network, and finally taking likelihood estimations to create a forecaster.
+
+For a more comprehensive report, I refer you to [this file](
 
 Currently, EEG is primarily used for seizure classification
 and not prediction. The project leverages noninvasive
