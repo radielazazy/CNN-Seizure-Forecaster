@@ -42,7 +42,7 @@ The [CNNTraining file](https://github.com/radielazazy/CNN-Seizure-Forecaster/blo
 
 The [TopographicalMaps](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/TopographicalMaps.m) code creates topographical maps.
 
-The [ProbabilityDistributions](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/ProbabilityDistributions.m) In capturing the statistical components of flagged electrodes, three groups (Interictal,
+The [ProbabilityDistributions](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/ProbabilityDistributions.m) are used to analyze the confidence scores. In capturing the statistical components of flagged electrodes, three groups (Interictal,
  Pre-ictal, Ictal) were assessed in terms of their fit to a Gaussian distribution, using the function
  fitdist with a Gaussian kernel. From these distributions, the PDFs of the distributions were
  calculated and formed likelihood ranges based on the ratio of their likelihoods. 
