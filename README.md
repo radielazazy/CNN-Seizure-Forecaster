@@ -48,6 +48,11 @@ The [ProbabilityDistributions](https://github.com/radielazazy/CNN-Seizure-Foreca
  calculated and formed likelihood ranges based on the ratio of their likelihoods. 
 
 
+The [FLAGGINGandKURTOSIS](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/FLAGGINGandKURTOSIS.m) file is where the seizure is marked thirty minutes prior. .
+ To implement kurtosis it was found which windows worked best and gave optimal
+ predictions. Two windows worked best on 120 and 30 frames of scalograms. These
+ windows were then used in conjunction to create a multi flag system where both kurtosis
+ windows had to be satisfied in order to trigger a hard warning.
 
 
 
