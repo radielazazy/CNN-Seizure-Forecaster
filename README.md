@@ -22,7 +22,9 @@ or clinical information.
 1) Downloading scalp EEG data: [Siena Scalp EEG Data](https://physionet.org/content/siena-scalp-eeg/1.0.0/)
 
 
-2) Filtering data
+2) Data Processing
 
-![Screenshot 2024-08-27 013645](https://github.com/user-attachments/assets/132efa7e-bad4-4b9f-9f6a-9b4047e389b2)
+![Screenshot 2024-08-27 021140](https://github.com/user-attachments/assets/d584db19-9e5b-4ca4-aae9-a2b125e4d521)
+
+
 
