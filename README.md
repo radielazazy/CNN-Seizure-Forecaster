@@ -34,8 +34,9 @@ or clinical information.
 
   ![Screenshot 2024-08-27 152803](https://github.com/user-attachments/assets/4ba9a576-8021-42fe-bde9-2667402e8511)
 
+The [CWTs](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/CWTs.m) code transforms the EEG time-frequency data into Continuous Wavelet Transforms.
 
-4) 
+
 
 
 
