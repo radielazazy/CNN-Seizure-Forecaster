@@ -1,8 +1,8 @@
 ****Introduction to Project****
 
-Goal: using raw EEG data that contains both seizure and non seizure data, create a model that produces an alert thirty minutes before a seizure occurs. The pipeline involves first, filtering the data, then transforming the data and feeding it into a VGG-16 convolutional neural network, and finally taking likelihood estimations to create a forecaster.
-
 For a more comprehensive report, I refer you to [this file](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/CNN-Seizure-Forecaster-Report.pdf).
+
+Goal: using raw EEG data that contains both seizure and non seizure data, create a model that produces an alert thirty minutes before a seizure occurs. The pipeline involves first, filtering the data, then transforming the data and feeding it into a VGG-16 convolutional neural network, and finally taking likelihood estimations to create a forecaster. This project took about a year of consistent work to complete.
 
 Currently, EEG is primarily used for seizure classification
 and not prediction. The project leverages noninvasive
