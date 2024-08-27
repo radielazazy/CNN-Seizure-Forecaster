@@ -38,7 +38,7 @@ The [CWTs](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/CWTs.
 
 The [CNNTraining file](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/CNNTraining.m) trains the CNN on seizure and non-seizure data. Votes whether a specific CWT is in a seizure state or not and gives a confidence score associated with the CWT.
 
-**** 4)Forecasting**** - this is where the prediction of the seizure occurs. Topographical maps were created (optional). The CWTs were rearranged based on their respective times. The trained CNN is now able to identify each image as seizure or non-seizure. Likelihood estimations and probability distributions based on the confidence score of the CNN were produced. Kurtosis was used as the main method of determining whether a seizure would occur within the next thirty minutes. After testing many statistical methods, kurtosis seemed to be the most accurate and compatible with our constraints.
+****4) Forecasting-****  this is where the prediction of the seizure occurs. Topographical maps were created (optional). The CWTs were rearranged based on their respective times. The trained CNN is now able to identify each image as seizure or non-seizure. Likelihood estimations and probability distributions based on the confidence score of the CNN were produced. Kurtosis was used as the main method of determining whether a seizure would occur within the next thirty minutes. After testing many statistical methods, kurtosis seemed to be the most accurate and compatible with our constraints.
 
 The [TopographicalMaps](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/TopographicalMaps.m) code creates topographical maps.
 
