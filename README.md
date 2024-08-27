@@ -24,19 +24,19 @@ or clinical information.
 ****1) Downloading scalp EEG data:**** [Siena Scalp EEG Data](https://physionet.org/content/siena-scalp-eeg/1.0.0/)
 
 
-****2) Data Processing**** - this involves filtering much of the artifacts out of the original data. Once this has been completed, the data is split into ictal (seizure) and pre-ictal (non-seizure) using timestamps provided by the original datase.
+****2) Data Processing**** - this involves filtering much of the artifacts out of the original data. Once this has been completed, the data is split into ictal (seizure) and pre-ictal (non-seizure) using timestamps provided by the original datase. The data is labelled to prepare for the CNN training.
 
   ![Screenshot 2024-08-27 021140](https://github.com/user-attachments/assets/d584db19-9e5b-4ca4-aae9-a2b125e4d521)
 
   [PSDandSUBBANDS](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/PSDandSUBBANDS.m) - this file filters and splits the data into seizure and nonseizure data.
 
-****3) Classification**** - first, the data was transformed into Continuous Wavelet Transforms, then the data was used to train the VGG-16 framework to classify whether a specific CWT is in a seizure or non seizure state.
+****3) Classification**** - first, the data was transformed into Continuous Wavelet Transforms (CWT), then the data was used to train the VGG-16 framework to classify whether a specific CWT is in a seizure or non seizure state.
 
   ![Screenshot 2024-08-27 152803](https://github.com/user-attachments/assets/4ba9a576-8021-42fe-bde9-2667402e8511)
 
 The [CWTs](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/CWTs.m) code transforms the EEG time-frequency data into Continuous Wavelet Transforms.
 
-The [CNNTraining file](
+The [CNNTraining file](https://github.com/radielazazy/CNN-Seizure-Forecaster/blob/main/CNNTraining.m) trains the CNN on seizure and non-seizure data. Votes whether a specific CWT is in a seizure state or not and gives a confidence score associated with the CWT.
 
 
 
